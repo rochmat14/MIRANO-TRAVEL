@@ -1,0 +1,245 @@
+body {
+  margin: 0px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: #68B0AB;
+  padding-left: 15px;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+
+.header .title2 {
+  line-height: 5px;
+  color: wheat;
+}
+
+header nav {
+  background: #006A71;
+  height: 41px;
+  padding: 3px;
+}
+
+#toggle {
+  position: absolute;
+  margin-top: -38px;
+  width: 56px;
+  height: 35px;
+  border: 1px solid #006A71;
+  border-radius: 5px;
+  background: #68B0AB;
+  padding: 6px;
+  cursor: pointer;
+}
+
+#toggle span {
+  width: 42px;
+  height: 4px;
+  background: wheat;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.col {
+  margin-top: 0%;
+}
+
+/* style sidebar */
+#sidebar-container {
+  min-height: 100vh;
+  background-color: white;
+  padding: 0;
+  -webkit-transition: margin-left, 0.5s;
+  transition: margin-left, 0.5s;
+  -webkit-box-shadow: 0px 5px 10px 5px #68B0AB;
+          box-shadow: 0px 5px 10px 5px #68B0AB;
+  z-index: 3;
+}
+
+.sidebar-expanded {
+  width: 215px;
+}
+
+.sidebar-active {
+  margin-left: -215px;
+}
+
+.dropdown-container li a {
+  color: wheat;
+}
+
+.dropdown-container li a:hover {
+  text-decoration: none;
+}
+
+#seconddiv.slide-admin {
+  height: 96px;
+}
+
+#seconddiv.slide-master-data {
+  height: 241px;
+}
+
+#seconddiv.slide-laporan {
+  height: 97px;
+}
+
+#seconddiv {
+  height: 0px;
+  margin-left: -40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.list-btn {
+  margin-left: -40px;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown a:hover {
+  text-decoration: none;
+  color: #006A71;
+}
+
+.text-bl {
+  color: #006A71;
+}
+
+.text-list {
+  color: wheat;
+}
+
+.bg-bl {
+  background: #68B0AB;
+}
+
+.ml--5 {
+  margin-left: -5px;
+}
+
+.no-btn {
+  border: none;
+  background: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* menghilangkan garis luar yang berwarna biru pada button ketika di klik */
+.no-outline-f:focus {
+  outline: none;
+}
+
+.table-android-admin {
+  display: none;
+}
+
+.table-android-user {
+  display: none;
+}
+
+.sidebar-active-user-home {
+  margin-left: -16px;
+}
+
+.header-carousel {
+  color: orange;
+  font-weight: bold;
+}
+
+.col-home-user {
+  z-index: 1;
+}
+
+.carousel-caption p {
+  color: #99bf87;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ebc340;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1000px) {
+  .header h1 {
+    font-size: 40px;
+  }
+  #sidebar-container {
+    min-height: 39vh;
+  }
+  .sidebar-expanded {
+    width: 100%;
+  }
+  .sidebar-active {
+    margin-left: -411px;
+  }
+  .sidebar-android {
+    text-align: center;
+  }
+  .container-fluid h1 {
+    font-size: 25px;
+    margin-bottom: -14px;
+  }
+  .container-fluid .header-laporan-jadwal {
+    margin-bottom: 10px;
+  }
+  .container-fluid .cetak-laporan-booking {
+    margin-bottom: 10px;
+  }
+  .container-fluid .responsive-card {
+    width: 96%;
+  }
+  .resonsive-div-table-pelanggan {
+    overflow-x: auto;
+  }
+  .table-web-admin {
+    display: none;
+  }
+  .table-android-admin {
+    display: block;
+  }
+  .table-web-user {
+    display: none;
+  }
+  .table-android-user {
+    display: block;
+  }
+  .sidebar-expanded-user {
+    width: 104%;
+  }
+  .row-home {
+    margin-right: -18px;
+  }
+  .carousel {
+    margin-top: 24px;
+  }
+  .header-carousel {
+    font-size: 17px;
+  }
+  .carousel-caption p {
+    font-weight: normal;
+  }
+}
+/*# sourceMappingURL=App.css.map */
